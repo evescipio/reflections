@@ -6,3 +6,12 @@ need to do it so you can track changes in files
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 is a place to temporarily store information about what should be committed, without actually committing it
 lets git initially begin tracking a file without saving the info to the git
+
+How can you use the staging area to make sure you have one commit per logical change?
+by using git diff to compare the current state of the staging area to the most recent commit and also be comparing the staging area to the working directory
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+when you want to try something experimental
+to create different versions of the game for different target devices
+to create local versions
+branches help by keeping related changes on a single path, separate from other paths.
