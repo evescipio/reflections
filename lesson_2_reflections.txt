@@ -15,3 +15,6 @@ when you want to try something experimental
 to create different versions of the game for different target devices
 to create local versions
 branches help by keeping related changes on a single path, separate from other paths.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+takes all changes in one branch and merges them together with all changes in another branch since the point where the branches diverged.
